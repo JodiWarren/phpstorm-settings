@@ -1,0 +1,27 @@
+<templateSet group="SCSS">
+  <template name="inc" value="@include $INCLUDE$$ARGS$ {&#10;    $END$&#10;}" description="SCSS include" toReformat="true" toShortenFQNames="true">
+    <variable name="INCLUDE" expression="includeName" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="&quot;()&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
+    </context>
+  </template>
+  <template name="///" value="// ----------------------------------------------------------------------&#10;&#10;  // $TITLE$&#10;&#10;// ----------------------------------------------------------------------&#10;&#10;////&#10;/// @author $AUTHOR$&#10;/// @group $GROUP$&#10;////&#10;&#10;/// $DESCRIPTION$&#10;///&#10;/// @example $EXAMPLE$&#10;///&#10;/// @require {$REQUIRETYPE$} $REQUIREDESCRIPTION$&#10;///&#10;/// @param $ARGNAME$ {$ARGTYPE$}    $ARGDESC$&#10;///&#10;/// @return $RETURNDESC$&#10;" shortcut="ENTER" description="SassDoc" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHOR" expression="" defaultValue="&quot;Jodi Warren for JH&quot;" alwaysStopAt="true" />
+    <variable name="GROUP" expression="capitalize(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESCRIPTION" expression="" defaultValue="&quot;Describe the use of this mixin/function&quot;" alwaysStopAt="true" />
+    <variable name="EXAMPLE" expression="" defaultValue="&quot;Paste an example usage here&quot;" alwaysStopAt="true" />
+    <variable name="REQUIRETYPE" expression="" defaultValue="&quot;mixin&quot;" alwaysStopAt="true" />
+    <variable name="REQUIREDESCRIPTION" expression="" defaultValue="&quot;Describe this requirement&quot;" alwaysStopAt="true" />
+    <variable name="ARGNAME" expression="" defaultValue="&quot;$argname&quot;" alwaysStopAt="true" />
+    <variable name="ARGTYPE" expression="" defaultValue="&quot;integer&quot;" alwaysStopAt="true" />
+    <variable name="ARGDESC" expression="" defaultValue="&quot;Describe this argument&quot;" alwaysStopAt="true" />
+    <variable name="RETURNDESC" expression="" defaultValue="&quot;Describe the return value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+    </context>
+  </template>
+</templateSet>

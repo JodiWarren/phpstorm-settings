@@ -1,0 +1,34 @@
+<application>
+  <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="Favorite 'Account Templates'" />
+    <option name="defaultScopeName" value="Favorite 'Account Templates'" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="Favorite 'Account Templates'" />
+    <option name="FILE_MASK" value="*.ts" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.as</mask>
+      <mask>*.mxml</mask>
+      <mask>*.hbs</mask>
+      <mask>*.less</mask>
+      <mask>*.scs</mask>
+      <mask>*.*</mask>
+      <mask>*php</mask>
+      <mask>*.json</mask>
+      <mask>*.js]</mask>
+      <mask>*.html</mask>
+      <mask>account-*.html</mask>
+      <mask>account-*.php</mask>
+      <mask>*.scss</mask>
+      <mask>*.php</mask>
+      <mask>*.css</mask>
+      <mask>*.js</mask>
+      <mask>*.phtml</mask>
+      <mask>*.ts</mask>
+    </recentFileMasks>
+  </component>
+</application>

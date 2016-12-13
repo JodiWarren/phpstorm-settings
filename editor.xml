@@ -1,0 +1,10 @@
+<application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="SHOW_BREADCRUMBS" value="false" />
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="showCssColorPreviewInGutter" value="false" />
+  </component>
+</application>

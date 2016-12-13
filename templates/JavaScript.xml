@@ -1,0 +1,9 @@
+<templateSet group="JavaScript">
+  <template name="rcls" value="import React from 'react';&#10;&#10;export default class $CLASSNAME$ extends React.Component {&#10;    &#10;    constructor() {&#10;        super();&#10;    }&#10;    &#10;    render() {&#10;        return (&#10;            &lt;div className=&quot;$CLASS$&quot;&gt;&#10;                $END$&#10;            &lt;/div&gt;&#10;        )&#10;    }&#10;}" description="React Create Class" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="lowercaseAndDash(CLASSNAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

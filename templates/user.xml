@@ -1,0 +1,113 @@
+<templateSet group="user">
+  <template name="ext" value="@extend $END$&#10;&#10;" description="extend" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
+    </context>
+  </template>
+  <template name="php" value="&lt;?php $END$ ?&gt;" description="PHP tags" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="printr" value="echo '&lt;pre&gt;' . htmlentities( print_r( $VAR$, true ) ) . '&lt;/pre&gt;';" description="print_r" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="mailbug" value="mail('jodi@wearejh.com', 'Testing $VAR$', '&lt;pre&gt;' . htmlentities( print_r( $VAR$ , true ) ) . '&lt;/pre&gt;');$END$" description="Mail a $var" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP String Literal" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="if" value="&lt;?php if( $IF$ ) : ?&gt;&#10;    $END$&#10;&lt;?php endif; ?&gt;" description="PHP If" toReformat="true" toShortenFQNames="true">
+    <variable name="IF" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="else" value="&lt;?php else : ?&gt;&#10;$END$" description="PHP else" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="foreach" value="&lt;?php foreach( $VAR$ as $KEY$ =&gt; $VALUE$ ) : ?&gt;&#10;    $END$&#10;&lt;?php endforeach; ?&gt;" description="PHP foreach" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="pe" value="&lt;?= $END$  ?&gt;" description="PHP Echo" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="for" value="&lt;?php for( $ITERATOR$ = 0; $ITERATOR$ &lt; $LIMIT$; $ITERATOR$++ ): ?&gt;&#10;    $END$&#10;&lt;?php endfor; ?&gt;" description="PHP for loop" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERATOR" expression="" defaultValue="&quot;$i&quot;" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="rmod" value="/* global jQuery */&#10;/* exported $revealingModuleName$ */&#10;var $revealingModuleName$ = (function($) {&#10;  'use strict';&#10;  function $methodName$() {&#10;    $END$&#10;  }&#10;  return {&#10;  $methodName$:$methodName$&#10;};&#10;}(jQuery));" description="Revealing Module" toReformat="true" toShortenFQNames="true">
+    <variable name="revealingModuleName" expression="" defaultValue="&quot;revealingModuleName&quot;" alwaysStopAt="true" />
+    <variable name="methodName" expression="" defaultValue="&quot;methodName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="String" value="&lt;?= __('$SELECTION$', '$DOMAIN$') ?&gt;$END$" description="Surround to make translatable string" toReformat="true" toShortenFQNames="true">
+    <variable name="DOMAIN" expression="" defaultValue="&quot;jh&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="console.log($END$);" description="console.log" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="qs" value="const $variable$ = querySelector($selector$);$END$" description="Query Selector" toReformat="true" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="'variable'" alwaysStopAt="true" />
+    <variable name="selector" expression="" defaultValue="'.class'" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="qsa" value="const $variable$ = querySelectorAll($selector$);$END$" description="Query Selector All" toReformat="true" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="'variable'" alwaysStopAt="true" />
+    <variable name="selector" expression="" defaultValue="'.class'" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="qse" value="const $variable$ = querySelectorAll($selector$);&#10;[].forEach.call($variable$, (el, i) =&gt; {&#10;    $END$&#10;});" description="Query Selector Each" toReformat="true" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="&quot;elements&quot;" alwaysStopAt="true" />
+    <variable name="selector" expression="" defaultValue="&quot;'.element'&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="PHP Tag" value="&lt;?php $SELECTION$ ?&gt;" description="Surround with PHP tags" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="PHP Echo" value="&lt;?= $SELECTION$ ?&gt;" description="Surround with PHP echo tags" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

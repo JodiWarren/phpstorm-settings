@@ -1,0 +1,19 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="12432423/estimate-shipping-methods" type="JSON" />
+      <mapping pattern=".eslint" type="JSON" />
+      <mapping pattern="123" type="PLAIN_TEXT" />
+      <mapping pattern="page-jobs" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="estimate-shipping-methods" type="PLAIN_TEXT" />
+      <mapping pattern="vendor" type="PLAIN_TEXT" />
+      <mapping pattern="browserslist" type="PLAIN_TEXT" />
+      <mapping ext="properties" type="PLAIN_TEXT" />
+      <mapping ext="6b5d31caceef4f9fa31ca295da762ed4" type="PLAIN_TEXT" />
+      <mapping ext="d" type="PLAIN_TEXT" />
+      <mapping pattern="_page-address-book" type="SCSS" />
+    </extensionMap>
+  </component>
+</application>
