@@ -3,8 +3,8 @@
     <variable name="INCLUDE" expression="includeName" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="&quot;()&quot;" alwaysStopAt="true" />
     <context>
-      <option name="CSS_RULESET_LIST" value="true" />
       <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="true" />
     </context>
   </template>
   <template name="///" value="// ----------------------------------------------------------------------&#10;&#10;  // $TITLE$&#10;&#10;// ----------------------------------------------------------------------&#10;&#10;////&#10;/// @author $AUTHOR$&#10;/// @group $GROUP$&#10;////&#10;&#10;/// $DESCRIPTION$&#10;///&#10;/// @example $EXAMPLE$&#10;///&#10;/// @require {$REQUIRETYPE$} $REQUIREDESCRIPTION$&#10;///&#10;/// @param $ARGNAME$ {$ARGTYPE$}    $ARGDESC$&#10;///&#10;/// @return $RETURNDESC$&#10;" shortcut="ENTER" description="SassDoc" toReformat="false" toShortenFQNames="true">
