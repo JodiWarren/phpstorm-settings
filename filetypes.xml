@@ -13,6 +13,14 @@
       <mapping ext="properties" type="PLAIN_TEXT" />
       <mapping ext="6b5d31caceef4f9fa31ca295da762ed4" type="PLAIN_TEXT" />
       <mapping pattern="_page-address-book" type="SCSS" />
+      <mapping pattern="h" type="textmate" />
+      <mapping pattern="M" type="textmate" />
+      <mapping pattern="mm" type="textmate" />
+      <mapping pattern="strings" type="textmate" />
+      <mapping pattern="m" type="textmate" />
+      <mapping ext="mm" type="textmate" />
+      <mapping ext="strings" type="textmate" />
+      <mapping ext="m" type="textmate" />
     </extensionMap>
   </component>
 </application>
