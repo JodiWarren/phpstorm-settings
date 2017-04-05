@@ -7,26 +7,26 @@
   </template>
   <template name="php" value="&lt;?php $END$ ?&gt;" description="PHP tags" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="HTML" value="true" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="printr" value="echo '&lt;pre&gt;' . htmlentities( print_r( $VAR$, true ) ) . '&lt;/pre&gt;';" description="print_r" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="mailbug" value="mail('jodi@wearejh.com', 'Testing $VAR$', '&lt;pre&gt;' . htmlentities( print_r( $VAR$ , true ) ) . '&lt;/pre&gt;');$END$" description="Mail a $var" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP String Literal" value="false" />
-      <option name="PHP Comment" value="false" />
       <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
     </context>
   </template>
   <template name="if" value="&lt;?php if( $IF$ ) : ?&gt;&#10;    $END$&#10;&lt;?php endif; ?&gt;" description="PHP If" toReformat="true" toShortenFQNames="true">
@@ -50,8 +50,8 @@
   </template>
   <template name="pe" value="&lt;?= $END$  ?&gt;" description="PHP Echo" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="true" />
+      <option name="HTML_TEXT" value="false" />
     </context>
   </template>
   <template name="for" value="&lt;?php for( $ITERATOR$ = 0; $ITERATOR$ &lt; $LIMIT$; $ITERATOR$++ ): ?&gt;&#10;    $END$&#10;&lt;?php endfor; ?&gt;" description="PHP for loop" toReformat="true" toShortenFQNames="true">
