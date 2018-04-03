@@ -1,4 +1,11 @@
 <application>
+  <component name="PhpAutoImport" auto_import_file_scope="true" />
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter home="/usr/bin/php" id="58f503e6-faf2-482d-82e8-99651662fe73" name="PHP 5.5" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/Applications/MAMP/bin/php/php5.6.25/bin/php" id="41062061-5717-4b47-a5d5-ee74a9a27040" name="PHP 5.6" debugger_id="php.debugger.XDebug" />
+    </interpreters>
+  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 5.5">
