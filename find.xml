@@ -9,7 +9,6 @@
     <mask>*.java</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
-    <mask>*.phtml</mask>
     <mask>*.json</mask>
     <mask>*.css</mask>
     <mask>*.ts</mask>
@@ -17,5 +16,6 @@
     <mask>*.xml</mask>
     <mask>*.scss</mask>
     <mask>*.php</mask>
+    <mask>*.phtml</mask>
   </component>
 </application>
