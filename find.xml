@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="File '.../wordpress/wp-content/plugins/starbucks-blocks/src/StoryMap/StoryMap.php [starbucksadmin-test]'" />
+    <option name="defaultScopeName" value="File '.../wordpress/wp-content/plugins/starbucks-blocks/src/StoryMap/StoryMap.php [starbucksadmin-test]'" />
+    <option name="SEARCH_SCOPE" value="File '.../wordpress/wp-content/plugins/starbucks-blocks/src/StoryMap/StoryMap.php [starbucksadmin-test]'" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
