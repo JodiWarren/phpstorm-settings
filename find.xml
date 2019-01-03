@@ -15,8 +15,8 @@
     <mask>*.phtml</mask>
     <mask>*.njk</mask>
     <mask>*.css</mask>
-    <mask>*.scss</mask>
     <mask>*.php</mask>
     <mask>*.js</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
