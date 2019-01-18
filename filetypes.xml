@@ -12,6 +12,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="estimate-shipping-methods" type="PLAIN_TEXT" />
       <mapping pattern="browserslist" type="PLAIN_TEXT" />
+      <mapping pattern="classes/Block" type="PLAIN_TEXT" />
       <mapping ext="properties" type="PLAIN_TEXT" />
       <mapping ext="6b5d31caceef4f9fa31ca295da762ed4" type="PLAIN_TEXT" />
       <mapping pattern="_page-address-book" type="SCSS" />
