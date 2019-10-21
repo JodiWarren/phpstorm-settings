@@ -69,7 +69,7 @@
     </context>
   </template>
   <template name="String" value="&lt;?= __('$SELECTION$', '$DOMAIN$') ?&gt;$END$" description="Surround to make translatable string" toReformat="true" toShortenFQNames="true">
-    <variable name="DOMAIN" expression="" defaultValue="&quot;jh&quot;" alwaysStopAt="true" />
+    <variable name="DOMAIN" expression="" defaultValue="&quot;tbp&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
     </context>
