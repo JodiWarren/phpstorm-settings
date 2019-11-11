@@ -110,4 +110,11 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="edf" value="export default function $functionName$(){&#10;    $END$&#10;}" description="export default function" toReformat="true" toShortenFQNames="true">
+    <variable name="functionName" expression="" defaultValue="&quot;init&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
