@@ -3,6 +3,7 @@
     <option name="customScope" value="Frontend" />
     <option name="defaultScopeName" value="Frontend" />
     <option name="SEARCH_SCOPE" value="Frontend" />
+    <option name="FILE_MASK" value="*.scss" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -17,7 +18,7 @@
     <mask>*.css</mask>
     <mask>*.json</mask>
     <mask>*.js</mask>
-    <mask>*.scss</mask>
     <mask>*.php</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
